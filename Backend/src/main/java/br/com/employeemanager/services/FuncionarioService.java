@@ -6,6 +6,7 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import br.com.employeemanager.exceptions.UsuarioNaoEncontradoException;
 import br.com.employeemanager.model.Funcionario;
 import br.com.employeemanager.repositories.FuncionarioRepository;
 
