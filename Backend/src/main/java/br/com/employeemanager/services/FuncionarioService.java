@@ -39,6 +39,6 @@ public class FuncionarioService {
 	}
 
 	public void deletarFuncionario(Long id) {
-		funcionarioRepository.deleteFuncionarioById(id);
+		funcionarioRepository.deleteById(id);
 	}
 }

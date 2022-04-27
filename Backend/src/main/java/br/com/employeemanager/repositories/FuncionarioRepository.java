@@ -8,7 +8,6 @@ import br.com.employeemanager.model.Funcionario;
 
 public interface FuncionarioRepository extends JpaRepository<Funcionario, Long>{
 
-	void deleteFuncionarioById(Long id);
 
 	Optional<Funcionario> findFuncionarioById(Long id);
 
