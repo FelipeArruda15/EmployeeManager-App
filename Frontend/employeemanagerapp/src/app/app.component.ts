@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   public obterFuncionarios(): void {
     this.service.obterFuncionarios().subscribe(
       (resposta: Funcionario[]) => {
-        this.funcionarios = resposta;
+        this.funcionarios = resposta
       },
       (error: HttpErrorResponse) => {
         alert(error.message)
